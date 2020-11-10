@@ -264,6 +264,7 @@
 
     function cformSuccess() {
         $("#contactForm")[0].reset();
+	window.location.href = "https://aksecurity.com.na";
         csubmitMSG(true, "Message Submitted!");
         $("input").removeClass('notEmpty'); // resets the field label after submission
         $("textarea").removeClass('notEmpty'); // resets the field label after submission
